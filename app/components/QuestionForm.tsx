@@ -135,7 +135,7 @@ export default function QuestionForm({ selectedCrop, selectedLanguage, onSubmit 
               )}
               {question.trim() && (
                 <div>
-                  Question: <span className="font-medium text-gray-800">"{question.trim()}"</span>
+                  Question: <span className="font-medium text-gray-800">&quot;{question.trim()}&quot;</span>
                 </div>
               )}
             </div>
